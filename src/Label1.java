@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Label1 extends JFrame {
 
@@ -6,10 +7,20 @@ public class Label1 extends JFrame {
 
         super("label-JLabel");
         setSize(500,500);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JLabel prova = new JLabel("Prova");
+        add(prova);
 
-        JLabel label = new JLabel("Prova");
-        add(label);
+        JLabel mondo = new JLabel("Mondo");
+        add(mondo);
+
+
+
+        setLayout(new GridLayout(3,2));
+
         setVisible(true);
+
 
     }
 

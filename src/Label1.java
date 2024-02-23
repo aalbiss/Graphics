@@ -15,12 +15,9 @@ public class Label1 extends JFrame {
         JLabel mondo = new JLabel("Mondo");
         add(mondo);
 
-
-
         setLayout(new GridLayout(3,2));
 
         setVisible(true);
-
 
     }
 
@@ -29,3 +26,5 @@ public class Label1 extends JFrame {
     }
 
 }
+
+

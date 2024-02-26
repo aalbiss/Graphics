@@ -1,3 +1,5 @@
+package Label;
+
 import javax.swing.*;
 import java.awt.*;
 

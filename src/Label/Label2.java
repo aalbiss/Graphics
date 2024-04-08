@@ -40,7 +40,7 @@ public class Label2 extends JFrame {
     
     public static void main(String[] args) {
         
-        Label2 l2 = new Label2();
+        new Label2();
         
     }
     

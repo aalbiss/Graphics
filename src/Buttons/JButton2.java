@@ -76,7 +76,7 @@ public class JButton2 extends JFrame implements ActionListener {
     }
     
     public static void main(String[] args) {
-        JButton2 b = new Buttons.JButton2();
+        new JButton2();
     }
     
 }

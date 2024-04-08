@@ -39,7 +39,7 @@ public class JButtonGestioneClasseInterna extends JFrame {
     }
     
     public static void main(String[] args) {
-        Buttons.JButton2 b = new Buttons.JButton2();
+        new JButton2();
     }
     
     

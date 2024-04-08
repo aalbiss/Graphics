@@ -32,7 +32,7 @@ public class TextField extends JFrame {
 
 
     public static void main(String[] args) {
-        TextField t = new TextField();
+        new TextField();
     }
 
 }

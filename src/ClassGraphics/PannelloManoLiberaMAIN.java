@@ -1,7 +1,6 @@
 package ClassGraphics;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class PannelloManoLiberaMAIN extends JFrame {
     

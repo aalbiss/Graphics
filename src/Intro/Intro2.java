@@ -13,7 +13,7 @@ public class Intro2 extends JFrame {
     }
     
     public static void main(String[] args) {
-        Intro2 in = new Intro2();
+        new Intro2();
     }
     
 }

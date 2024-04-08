@@ -10,7 +10,7 @@ public class Label3 extends JFrame {
         setSize(250,700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        Font font = new Font("Road Rage", Font.TRUETYPE_FONT, 199);
+        Font font = new Font("Road Rage", Font.PLAIN, 199);
         getContentPane().setBackground(Color.black);
         
         JLabel label1 = new JLabel("Alberto");
@@ -55,7 +55,7 @@ public class Label3 extends JFrame {
 
     public static void main(String[] args) {
 
-        Label3 l3 = new Label3();
+       new Label3();
 
     }
     

@@ -24,7 +24,7 @@ public class Label1 extends JFrame {
     }
 
     public static void main(String[] args) {
-        Label1 l = new Label1();
+       new Label1();
     }
 
 }
